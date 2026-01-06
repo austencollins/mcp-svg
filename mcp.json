@@ -1,0 +1,15 @@
+{
+  "mcp": {
+    "name": "svg",
+    "description": "A simple svg editor",
+    "version": "0.0.5",
+    "install": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:austencollins/svg"
+      ]
+    }
+  },
+  "mcps": []
+}
