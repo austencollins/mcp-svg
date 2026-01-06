@@ -7,9 +7,9 @@
       "command": "npx",
       "args": [
         "-y",
-        "github:austencollins/svg"
+        "github:austencollins/mcp-svg"
       ]
     }
-  },
+  }, 
   "mcps": []
 }
