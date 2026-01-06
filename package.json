@@ -1,14 +1,14 @@
 {
-  "name": "svg",
-  "version": "0.0.1",
+  "name": "mcp-svg",
+  "version": "0.0.7",
   "description": "MCP server template with Todo List example and MCP Apps UI support",
   "type": "module",
   "main": "dist/server.js",
   "bin": {
-    "svg": "dist/server.js"
+    "svg": "src/server.ts"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "build": "vite build && tsc",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.1",
+    "tsx": "^4.19.0",
     "zod": "^4.2.0"
   },
   "devDependencies": {
@@ -26,7 +27,6 @@
     "@vitejs/plugin-react": "^4.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "vite": "^6.0.0",
     "vite-plugin-singlefile": "^2.0.0"
